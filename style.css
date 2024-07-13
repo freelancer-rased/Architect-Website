@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 130px;
+}
+
+nav ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.banner {
+    max-width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-primary {
+    padding: 15px 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.banner-img {
+    padding: 20px 130px;
+    width: 80%;
+}
+
+header {
+    background-color: #fff4e7;
+}
+
+.banner-title {
+    font-size: 4rem;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.banner-description {
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+}
+
+.feature-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+main {
+    padding: 30px 130px;
+}
+
+.features-title {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.quick {
+    color: gray;
+}
+
+.feature {
+    color: orange;
+}
+
+.primary-description {
+    color: gray;
+    padding: 20px 0;
+}
+
+.primary-title {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.features-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+
+.features-conttent-right img {
+    height: 80%;
+
+}
+
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+}
+
+.skills {
+    border: 1px solid orange;
+    height: 160px;
+    width: 220px;
+    padding-top: 60px;
+}
+
+.sponspors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+
+}
+
+.sponspors>img {
+    height: 40px;
+
+}
+
+.sponsors-title {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footer-container {
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    background-color: antiquewhite;
+    padding-top: 25px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+}
+
+footer {
+    padding: 0 150px;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 576px) {
+    .banner-img {
+        padding: 20px 40px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .header-title {
+        font-size: 1.3rem;
+        padding-bottom: 15px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        padding-top: 30px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 30px 40px;
+    }
+
+    .team-image {
+        grid-template-columns: 1fr;
+    }
+
+    .features-title {
+        font-size: 2rem;
+    }
+
+    .primary-description {
+        text-align: justify;
+
+    }
+
+    .skill-container {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .skills {
+        margin-bottom: 15px;
+    }
+
+    .sponspors {
+        display: inline;
+    }
+
+    footer {
+        padding: 0 20px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .navbar {
+        flex-direction: column;
+        padding: 30px 70px;
+    }
+
+    .header-title {
+        font-size: 3rem;
+    }
+
+    ul li {
+        font-size: 1.8rem;
+    }
+
+    .banner-title {
+        font-size: 2.8rem;
+        padding-top: 30px;
+    }
+
+    .banner-description {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .banner-img {
+        padding: 20px 70px;
+    }
+
+    .feature-container {
+        flex-direction: column-reverse;
+    }
+
+    .skill-container {
+        gap: 25px;
+    }
+
+    .sponspors {
+        gap: 15px;
+    }
+
+    .footer-container {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .feature-items {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
