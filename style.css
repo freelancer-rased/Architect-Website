@@ -195,7 +195,7 @@ footer {
         padding-top: 30px;
     }
 
-    .feature-container {
+    .feature-container, .features-content {
         flex-direction: column;
     }
 
@@ -288,5 +288,8 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .features-content{
+        flex-direction: column;
     }
 }
